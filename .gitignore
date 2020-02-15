@@ -1,0 +1,3 @@
+# Build directories specific to Qt Creator
+
+build-*Qt*
