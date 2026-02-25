@@ -3,6 +3,11 @@
 This repository showcases a collection of algorithms implemented in different
 programming languages.
 
+## csv_parser
+
+- Detail the logic behind a streaming CSV parser that is compliant with
+RFC 4180.
+
 ## word_dict
 
 - Dictionary of words with efficient lookup supporting character substitution,
