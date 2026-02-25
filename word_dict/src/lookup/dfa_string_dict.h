@@ -96,7 +96,8 @@ public:
     /// Substitution string matching algorithm.
     ///     - More permissive than match_string_exactly().
     ///     - Faster than match_string_levenshtein_distance() when the latter is
-    ///       limited to substitutions only (i.e. no insertion or deletion).
+    ///       limited to substitutions only, which means no insertions or
+    ///       deletions are allowed.
     match_result match_string_allow_substitution(
         const std::string &str,
         unsigned int subst_max = 0
